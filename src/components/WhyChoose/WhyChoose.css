@@ -14,8 +14,8 @@
   text-align: center;
   padding: 2rem;
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
+  transform: translateY(16px);
+  transition: opacity 0.45s ease, transform 0.45s ease;
 }
 
 .why-choose-card.visible {

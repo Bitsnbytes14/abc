@@ -65,8 +65,8 @@
 
 .hero-content {
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease 0.2s, transform 0.5s ease 0.2s;
+  transform: translateY(16px);
+  transition: opacity 0.45s ease 0.2s, transform 0.45s ease 0.2s;
 }
 
 .hero-content.visible {
@@ -137,8 +137,8 @@
 .hero-image {
   position: relative;
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease 0.4s, transform 0.5s ease 0.4s;
+  transform: translateY(16px);
+  transition: opacity 0.45s ease 0.4s, transform 0.45s ease 0.4s;
 }
 
 .hero-image.visible {

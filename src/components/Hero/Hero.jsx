@@ -27,11 +27,11 @@ function Hero() {
       <div className="container hero-container" ref={ref}>
         <div className={`hero-content ${isVisible ? 'visible' : ''}`}>
           <h1 className="hero-heading">
-            Where Every Child Begins Their<br />
-            <span className="hero-highlight">Journey to a Brighter Future</span>
+            A Strong Start for<br />
+            <span className="hero-highlight">Every Child's Future</span>
           </h1>
           <p className="hero-subtext">
-            Quality CBSE education in Khairai Village, Fatehpur — building strong foundations from Nursery to Class 8.
+            Quality CBSE education in Khairai Village, Fatehpur — from Nursery to Class 8, right where you live.
           </p>
           <div className="hero-buttons">
             <a href="#programs" className="btn-primary">Explore Programs</a>

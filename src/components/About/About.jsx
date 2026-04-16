@@ -13,7 +13,7 @@ function About() {
             <span className="about-highlight">Now Closer to Home</span>
           </h2>
           <p className="about-text">
-            Parents in Khairai no longer need to send their children to distant cities for quality schooling. ABC Public School brings structured CBSE education, daily discipline, and confident learning directly to the village. Our focus is simple — strong basics, caring teachers, and a safe place to grow.
+            For years, families in Khairai had to send their children to towns far away just for decent schooling. ABC Public School was started with one simple purpose — to bring that same quality of education right here, to our village. We focus on discipline, strong basics, and making every child feel confident in the classroom.
           </p>
           <a href="#admissions" className="btn-primary">Apply for Admission</a>
         </div>

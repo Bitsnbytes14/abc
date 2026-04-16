@@ -8,19 +8,19 @@ function Testimonials() {
 
   const testimonials = [
     {
-      quote: "Pehle humein bachche ko door bhejna padta tha. Ab gaon mein hi acchi padhai ho rahi hai.",
+      quote: "Pehle humein bachche ko door bhejna padta tha padhne ke liye. Ab gaon mein hi itni acchi padhai ho rahi hai — bahut khushi hui.",
       name: "Ramesh Yadav",
-      relation: "Parent (Class 3)"
+      relation: "Parent · Class 3"
     },
     {
-      quote: "The teachers here are very caring. My daughter has improved so much in just a few months.",
+      quote: "The teachers here are patient and caring. My daughter was shy before — now she participates in everything.",
       name: "Sunita Devi",
-      relation: "Parent (Nursery)"
+      relation: "Parent · Nursery"
     },
     {
-      quote: "Good discipline, good teachers. We are happy our child studies here.",
+      quote: "Discipline is very good. The school keeps parents informed regularly. We feel safe sending our child here.",
       name: "Manoj Kumar",
-      relation: "Parent (Class 6)"
+      relation: "Parent · Class 6"
     }
   ];
 
