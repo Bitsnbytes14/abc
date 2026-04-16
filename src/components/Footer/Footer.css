@@ -31,6 +31,12 @@
   line-height: 1.6;
 }
 
+.footer-timings {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
+
 .footer-heading {
   font-family: var(--font-display);
   font-size: 1.125rem;

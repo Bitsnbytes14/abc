@@ -1,16 +1,47 @@
-# React + Vite
+# ABC Public School — Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive website for a real rural school — ABC Public School,
+Khairai Village, District Fatehpur, Uttar Pradesh.
 
-Currently, two official plugins are available:
+## About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This is not a template or a mock project. ABC Public School is a real,
+family-run school established in 2024 with the mission of bringing
+quality CBSE education to a village where none previously existed.
 
-## React Compiler
+The website was designed with one goal: a parent in the village should
+be able to open it, understand it immediately, and trust it.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Design Decisions
 
-## Expanding the ESLint configuration
+- Rural audience first — clarity over visual complexity
+- Warm, grounded tone — no startup language, no over-promising
+- Fraunces (serif) + DM Sans — warmth paired with readability
+- Minimal animation — subtle fade-ins only, nothing distracting
+- Mobile-first — most parents will view this on a phone
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React (Vite)
+- Plain CSS (no frameworks, no Tailwind)
+- Vanilla JS for interactions (IntersectionObserver, scroll events)
+
+## Features
+
+- Fully responsive (mobile-first, 768px breakpoint)
+- Modular component architecture
+- Smooth scroll + section fade-in animations
+- Auto-carousel testimonials with manual controls
+- Navbar scroll-shrink behaviour
+- Founder's message section
+
+## Real-World Context
+
+Built for my family's school. The brief was straightforward — represent
+the school honestly, make parents feel comfortable, and give the
+institution a real digital presence.
+
+## Run Locally
+
+npm install
+npm run dev

@@ -1,6 +1,7 @@
 import Hero from '../components/Hero/Hero';
 import Stats from '../components/Stats/Stats';
 import About from '../components/About/About';
+import FounderMessage from '../components/FounderMessage/FounderMessage';
 import Programs from '../components/Programs/Programs';
 import Activities from '../components/Activities/Activities';
 import Testimonials from '../components/Testimonials/Testimonials';
@@ -13,6 +14,7 @@ function Home() {
       <Hero />
       <Stats />
       <About />
+      <FounderMessage />
       <Programs />
       <Activities />
       <Testimonials />

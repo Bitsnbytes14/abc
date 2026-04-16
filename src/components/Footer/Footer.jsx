@@ -11,6 +11,7 @@ function Footer() {
             <div className="footer-address">
               <p>Khairai Village, Khaga</p>
               <p>District Fatehpur, Uttar Pradesh</p>
+              <p className="footer-timings">⏰ 8:00 AM – 2:00 PM, Monday to Saturday</p>
             </div>
           </div>
 

@@ -33,6 +33,9 @@ function Hero() {
           <p className="hero-subtext">
             Quality CBSE education in Khairai Village, Fatehpur — from Nursery to Class 8, right where you live.
           </p>
+          <p className="hero-timings">
+            School Timings: 8:00 AM – 2:00 PM · Mon – Sat
+          </p>
           <div className="hero-buttons">
             <a href="#programs" className="btn-primary">Explore Programs</a>
             <a href="#contact" className="btn-outline">Visit Campus</a>

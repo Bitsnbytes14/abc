@@ -12,7 +12,16 @@ body {
   font-family: var(--font-body);
   background-color: var(--color-bg);
   color: var(--color-text-dark);
-  line-height: 1.6;
+  line-height: 1.7;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: var(--font-body);
+  min-height: 44px;
+  min-width: 44px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,7 +58,17 @@ img {
 }
 
 .section {
-  padding: 5rem 0;
+  padding: 80px 5%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+  
+  .section {
+    padding: 48px 20px;
+  }
 }
 
 .fade-in {
