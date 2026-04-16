@@ -27,15 +27,15 @@ function Hero() {
       <div className="container hero-container" ref={ref}>
         <div className={`hero-content ${isVisible ? 'visible' : ''}`}>
           <h1 className="hero-heading">
-            Where Every Child Finds Their<br />
-            <span className="hero-highlight">"Spark, Voice, And Wings!"</span>
+            Where Every Child Begins Their<br />
+            <span className="hero-highlight">Journey to a Brighter Future</span>
           </h1>
           <p className="hero-subtext">
-            CBSE Affiliated · Est. 1998 · Pune, Maharashtra
+            Quality CBSE education in Khairai Village, Fatehpur — building strong foundations from Nursery to Class 8.
           </p>
           <div className="hero-buttons">
             <a href="#programs" className="btn-primary">Explore Programs</a>
-            <a href="#" className="btn-outline">Virtual Tour</a>
+            <a href="#contact" className="btn-outline">Visit Campus</a>
           </div>
         </div>
 
@@ -47,9 +47,7 @@ function Hero() {
             />
           </div>
           <div className="floating-badge badge-1">📚</div>
-          <div className="floating-badge badge-2">🎨</div>
-          <div className="floating-badge badge-3">🏆</div>
-          <div className="floating-badge badge-4">✏️</div>
+          <div className="floating-badge badge-2">✏️</div>
         </div>
       </div>
     </section>

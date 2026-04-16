@@ -16,7 +16,7 @@
 
 .doodle {
   position: absolute;
-  opacity: 0.12;
+  opacity: 0.07;
   width: 100px;
   height: 100px;
 }
@@ -175,18 +175,6 @@
   top: 20%;
   left: -5%;
   animation-delay: 0.5s;
-}
-
-.badge-3 {
-  bottom: 10%;
-  right: -5%;
-  animation-delay: 1s;
-}
-
-.badge-4 {
-  bottom: -5%;
-  left: 15%;
-  animation-delay: 1.5s;
 }
 
 @keyframes float {

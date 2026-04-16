@@ -8,19 +8,19 @@ function Testimonials() {
 
   const testimonials = [
     {
-      quote: "The teachers at ABC go above and beyond. My daughter has flourished here academically and emotionally. The balance between studies and extracurriculars is perfect.",
-      name: "Mrs. Priya Sharma",
-      relation: "Parent of Aisha, Grade 5"
+      quote: "Pehle humein bachche ko door bhejna padta tha. Ab gaon mein hi acchi padhai ho rahi hai.",
+      name: "Ramesh Yadav",
+      relation: "Parent (Class 3)"
     },
     {
-      quote: "We chose ABC for our son three years ago, and it has been the best decision. The campus is safe, the curriculum is challenging yet supportive, and the community is welcoming.",
-      name: "Mr. Rahul Verma",
-      relation: "Parent of Arjun, Grade 8"
+      quote: "The teachers here are very caring. My daughter has improved so much in just a few months.",
+      name: "Sunita Devi",
+      relation: "Parent (Nursery)"
     },
     {
-      quote: "The holistic approach at ABC has helped my child discover talents I never knew she had. From robotics to classical dance, the school nurtures every aspect of growth.",
-      name: "Mrs. Anjali Desai",
-      relation: "Parent of Krishna, Grade 3"
+      quote: "Good discipline, good teachers. We are happy our child studies here.",
+      name: "Manoj Kumar",
+      relation: "Parent (Class 6)"
     }
   ];
 

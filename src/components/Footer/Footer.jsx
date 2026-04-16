@@ -7,10 +7,10 @@ function Footer() {
         <div className="footer-grid">
           <div className="footer-col footer-about">
             <h3 className="footer-logo">🏫 ABC Public School</h3>
-            <p className="footer-tagline">Empowering tomorrow's leaders today</p>
+            <p className="footer-tagline">Nurturing Bright Futures, Right From the Roots</p>
             <div className="footer-address">
-              <p>123 Education Lane</p>
-              <p>Pune, Maharashtra 411001</p>
+              <p>Khairai Village, Khaga</p>
+              <p>District Fatehpur, Uttar Pradesh</p>
             </div>
           </div>
 
@@ -25,24 +25,23 @@ function Footer() {
           </div>
 
           <div className="footer-col">
-            <h4 className="footer-heading">Academics</h4>
+            <h4 className="footer-heading">Programs</h4>
             <ul className="footer-links">
-              <li><a href="#">Primary School</a></li>
-              <li><a href="#">Middle School</a></li>
-              <li><a href="#">Secondary</a></li>
-              <li><a href="#">Senior Secondary</a></li>
+              <li><a href="#">Foundation (Nursery-UKG)</a></li>
+              <li><a href="#">Primary (Class 1-5)</a></li>
+              <li><a href="#">Middle School (Class 6-8)</a></li>
             </ul>
           </div>
 
           <div className="footer-col">
-            <h4 className="footer-heading">Connect With Us</h4>
+            <h4 className="footer-heading">Follow Us</h4>
             <div className="footer-social">
-              <a href="#" aria-label="Twitter">𝕏</a>
-              <a href="#" aria-label="Instagram">in</a>
               <a href="#" aria-label="Facebook">fb</a>
+              <a href="#" aria-label="Instagram">in</a>
+              <a href="#" aria-label="WhatsApp">wa</a>
             </div>
-            <p className="footer-phone">📞 +91 98765 43210</p>
-            <p className="footer-email">✉️ admissions@abcpune.edu</p>
+            <p className="footer-phone">📞 +91 90000 00000</p>
+            <p className="footer-email">✉️ info@abcschool.in</p>
           </div>
         </div>
 

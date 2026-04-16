@@ -9,17 +9,13 @@ function About() {
       <div className="container about-container">
         <div className={`about-content ${isVisible ? 'visible' : ''}`} ref={ref}>
           <h2 className="about-heading">
-            Learning Thrives When<br />
-            <span className="about-highlight">Stress Is Removed</span>
+            Quality Education,<br />
+            <span className="about-highlight">Now Closer to Home</span>
           </h2>
           <p className="about-text">
-            At ABC Public School, we believe education should be a journey of joy and discovery, 
-            not stress and pressure. Our child-centered approach focuses on nurturing curiosity, 
-            building confidence, and fostering a love for learning that lasts a lifetime. Through 
-            innovative teaching methods and a supportive environment, we help every student 
-            reach their full potential.
+            Parents in Khairai no longer need to send their children to distant cities for quality schooling. ABC Public School brings structured CBSE education, daily discipline, and confident learning directly to the village. Our focus is simple — strong basics, caring teachers, and a safe place to grow.
           </p>
-          <a href="#admissions" className="btn-primary">Register for Free</a>
+          <a href="#admissions" className="btn-primary">Apply for Admission</a>
         </div>
 
         <div className={`about-image ${isVisible ? 'visible' : ''}`}>
@@ -28,8 +24,8 @@ function About() {
             alt="Students learning in classroom" 
           />
           <div className="about-badge">
-            <span>CBSE</span>
-            <span>Affiliated</span>
+            <span>CBSE Affiliated</span>
+            <span>Est. 2024</span>
           </div>
         </div>
       </div>

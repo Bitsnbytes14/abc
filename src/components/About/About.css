@@ -66,23 +66,22 @@
   left: -20px;
   background-color: var(--color-secondary);
   color: white;
-  padding: 1.5rem;
-  border-radius: 50%;
+  padding: 1rem 1.25rem;
+  border-radius: var(--radius-card);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100px;
-  height: 100px;
   text-align: center;
   box-shadow: 0 10px 30px rgba(26, 92, 58, 0.3);
+  max-width: 120px;
 }
 
 .about-badge span {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 0.875rem;
-  line-height: 1.2;
+  font-size: 0.75rem;
+  line-height: 1.3;
 }
 
 @media (max-width: 768px) {

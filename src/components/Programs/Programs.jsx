@@ -6,28 +6,22 @@ function Programs() {
 
   const programs = [
     {
-      icon: '📖',
-      title: 'Primary',
-      description: 'Nursery – Gr.5',
+      icon: '🌱',
+      title: 'Foundation Stage',
+      description: 'Nursery to UKG — play-based learning, language, and early numeracy',
       bgColor: 'var(--color-primary)'
+    },
+    {
+      icon: '📖',
+      title: 'Primary Education',
+      description: 'Class 1–5 — strong subject foundations, reading, writing, and arithmetic',
+      bgColor: 'var(--color-secondary)'
     },
     {
       icon: '🔬',
       title: 'Middle School',
-      description: 'Gr.6–8',
-      bgColor: 'var(--color-secondary)'
-    },
-    {
-      icon: '🎓',
-      title: 'Secondary',
-      description: 'Gr.9–10',
+      description: 'Class 6–8 — critical thinking, science basics, and confidence building',
       bgColor: 'var(--color-primary)'
-    },
-    {
-      icon: '🏅',
-      title: 'Senior Secondary',
-      description: 'Gr.11–12',
-      bgColor: 'var(--color-secondary)'
     }
   ];
 

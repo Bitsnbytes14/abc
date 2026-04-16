@@ -52,7 +52,7 @@ function Navbar() {
           ))}
           <li className="navbar-cta">
             <a href="#admissions" className="btn-primary" onClick={(e) => handleLinkClick(e, 'Admissions')}>
-              Apply Now
+              Apply for Admission
             </a>
           </li>
         </ul>

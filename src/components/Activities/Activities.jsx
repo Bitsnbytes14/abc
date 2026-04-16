@@ -5,12 +5,12 @@ function Activities() {
   const [ref, isVisible] = useFadeIn();
 
   const activities = [
-    { icon: '⚽', title: 'Sports', blurb: 'Basketball, football, cricket & more' },
-    { icon: '🎨', title: 'Arts & Crafts', blurb: 'Painting, pottery, and design' },
-    { icon: '🎵', title: 'Music & Dance', blurb: 'Classical & contemporary styles' },
-    { icon: '🤖', title: 'Robotics Club', blurb: 'Coding and building robots' },
-    { icon: '🌿', title: 'Nature Walks', blurb: 'Eco-exploration and sustainability' },
-    { icon: '🎭', title: 'Theatre', blurb: 'Drama, acting, and stagecraft' }
+    { icon: '⚽', title: 'Sports & PT', blurb: 'Physical training and outdoor games' },
+    { icon: '🎨', title: 'Drawing & Craft', blurb: 'Creative arts and handmade projects' },
+    { icon: '💻', title: 'Basic Computer Skills', blurb: 'Introduction to digital literacy' },
+    { icon: '🎤', title: 'Cultural Programs', blurb: 'Singing, dancing, and performances' },
+    { icon: '📢', title: 'Morning Assembly', blurb: 'Daily prayers, news, and discipline' },
+    { icon: '📖', title: 'Hindi & English Reading', blurb: 'Language development and vocabulary' }
   ];
 
   return (

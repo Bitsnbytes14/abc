@@ -6,19 +6,24 @@ function WhyChoose() {
 
   const features = [
     {
-      icon: '👨‍🏫',
-      title: 'Professional Faculty',
-      description: 'Experienced teachers with passion for education'
-    },
-    {
-      icon: '🌱',
-      title: 'Holistic Development',
-      description: 'Focus on academics, sports, and life skills'
+      icon: '👩‍🏫',
+      title: 'Caring & Dedicated Teachers',
+      description: 'Experienced educators who treat each child like their own'
     },
     {
       icon: '🛡️',
-      title: 'Safe Campus',
-      description: '24/7 security with modern infrastructure'
+      title: 'Safe and Disciplined Environment',
+      description: 'Structured daily routine with focus on character building'
+    },
+    {
+      icon: '📐',
+      title: 'Focus on Strong Subject Foundations',
+      description: 'Clear concepts in math, science, language, and more'
+    },
+    {
+      icon: '🏡',
+      title: 'Quality Education in Your Own Village',
+      description: 'No need to travel — world-class learning right at home'
     }
   ];
 

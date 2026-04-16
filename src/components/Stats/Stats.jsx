@@ -5,10 +5,10 @@ function Stats() {
   const [ref, isVisible] = useFadeIn();
 
   const stats = [
-    { number: '2,400+', label: 'Students' },
-    { number: '120+', label: 'Faculty' },
-    { number: '26', label: 'Years Legacy' },
-    { number: '98%', label: 'Board Results' }
+    { number: '100+', label: 'Students' },
+    { number: '10', label: 'Dedicated Teachers' },
+    { number: 'Est. 2024', label: '' },
+    { number: 'CBSE', label: 'Curriculum' }
   ];
 
   return (
