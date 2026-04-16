@@ -1,0 +1,118 @@
+.about {
+  background-color: var(--color-bg);
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.about-content {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.about-content.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about-heading {
+  font-size: 2.75rem;
+  font-weight: 700;
+  color: var(--color-text-dark);
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.about-highlight {
+  font-family: var(--font-display);
+  font-style: italic;
+  color: var(--color-secondary);
+}
+
+.about-text {
+  font-size: 1.125rem;
+  color: var(--color-text-muted);
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.about-image {
+  position: relative;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease 0.2s, transform 0.5s ease 0.2s;
+}
+
+.about-image.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 480px;
+  border-radius: var(--radius-card);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.about-badge {
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+  background-color: var(--color-secondary);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(26, 92, 58, 0.3);
+}
+
+.about-badge span {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .about-heading {
+    font-size: 2rem;
+  }
+
+  .about-image {
+    order: -1;
+  }
+
+  .about-image img {
+    max-width: 100%;
+  }
+
+  .about-badge {
+    bottom: 10px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    padding: 1rem;
+  }
+
+  .about-badge span {
+    font-size: 0.75rem;
+  }
+}

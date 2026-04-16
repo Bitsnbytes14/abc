@@ -1,0 +1,12 @@
+:root {
+  --color-bg: #FFF8F0;
+  --color-primary: #E8622A;
+  --color-secondary: #1A5C3A;
+  --color-text-dark: #1F1F1F;
+  --color-text-muted: #6B6B6B;
+  --radius-card: 20px;
+  --radius-pill: 50px;
+  --font-display: 'Fraunces', serif;
+  --font-body: 'DM Sans', sans-serif;
+  --transition-default: 0.3s ease;
+}
